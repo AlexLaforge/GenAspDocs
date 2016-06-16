@@ -1,0 +1,30 @@
+<h1><code>File :\Tools.asp</code></h1>
+
+<p>Several utils to include</p>
+
+<h2>COM Dependencies</h2>
+
+<ul>
+<li><code>Scripting.Dictionary</code></li>
+</ul>
+
+<h2><code>Class MyCache</code></h2>
+
+<p>Allows you to cache items.
+ This is a simple wrapper around <code>Scripting.Dictionary</code></p>
+
+<h3>Example</h3>
+
+<pre><code> Set objCache = new MyCache()
+
+' set a value in the cache
+objCache("123") = "abc"
+
+ ' get a value from the cache
+
+ val = objCache("123")
+</code></pre>
+
+<h3><code>Public Default Property Get Item(key)</code></h3>
+
+<p>Some usefull info about the <code>Get</code></p>
