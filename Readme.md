@@ -6,6 +6,8 @@ A markdown-comment is a comment on a newline that starts with `'''``.
 
 You can find an example in the `Examples` folder.
 
+![Example](example.png)
+
 # Usage
 
     GenAspDocs "fromfolder" "tofolder"
